@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-pattern': "url('/assets/87842-beautiful-forest-wallpaper-beautiful-forest-forest-wallpaper.jpg')"
+      }
+    },
   },
   plugins: [],
 }
