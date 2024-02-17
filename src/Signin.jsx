@@ -1,9 +1,8 @@
 const Signin = () => {
   return (
-    <div>
+    <div className='w-[400px] h-[500px]'>
       <div
-        className="bg-slate-800 border border-slate-600 rounded-md p-8 shadow-lg backdrop-filter backdrop-blur-lg bg-opacity-30 relative"
-        style={{ width: "354px", height: "382px" }}
+        className="bg-slate-800 border border-slate-600 rounded-md p-8 shadow-lg backdrop-filter backdrop-blur-lg bg-opacity-30 relative flex items-center justify-center flex-col"
       >
         <h1 className="text-3xl font-bold text-center">SignUp</h1>
         <form action="">

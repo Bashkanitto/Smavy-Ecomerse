@@ -1,10 +1,10 @@
 const Login = () => {
   return (
-    <div style={{ width: "354px", height: "382px" }}>
-      <div className="bg-slate-800 border border-slate-600 rounded-md p-8 shadow-lg backdrop-filter backdrop-blur-lg bg-opacity-30 relative">
+    <div className='w-[400px] h-[500px]'>
+      <div className="bg-slate-800 border border-slate-600 rounded-md p-8 shadow-lg backdrop-filter backdrop-blur-lg bg-opacity-30 relative flex flex-col items-center justify-center">
         <h1 className="text-4xl font-bold text-center">Login</h1>
         <form action="">
-          <div className="relative my-4 ">
+          <div className="relative my-4">
             {" "}
             <input
               type="text"
