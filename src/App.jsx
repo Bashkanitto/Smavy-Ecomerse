@@ -1,8 +1,9 @@
-import { Route, Routes } from 'react-router-dom';
+import React from 'react';
 import "./App.css";
+import { Route, Routes } from 'react-router-dom';
 import Login from "./Login";
 import Signin from "./Signin";
-import Header from './assets/page/Header';
+import Header from './component/Header';
 
 
 function App() {
