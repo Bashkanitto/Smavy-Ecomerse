@@ -1,4 +1,5 @@
 import {Card} from './Card'
+import Header from './Header'
 
 export const Main = () => {
 	return (
